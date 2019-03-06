@@ -24,12 +24,13 @@
 		min-height: 300px; 
 		margin-bottom: 0;}
 	.title-text-holder {
+		position: relative;
 		display: block; }
 	.centered {
   		position: absolute;
   		top: 50%;
   		left: 50%;
-  		transform: translate(-50%, -235%); }
+  		transform: translate(-50%, -130%); }
 	.navbar {
 		background-color: #FA3E00;
 		min-height: 40px; 
@@ -52,7 +53,9 @@
 <body>
 	<div class="container-fluid">
 		<div class="jumbotron text-center"></div>
-		<div class="title-text-holder, centered"><img src="images/function_follows_text.png" height="175px"></div>
+		<div class="title-text-holder">
+			<div class="centered"><img src="images/function_follows_text.png" height="175px"></div>
+		</div>
 	</div>
 	<div class="container-fluid navbar"></div>
 	<div align="center">
