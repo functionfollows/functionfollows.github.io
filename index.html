@@ -1,65 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <!-- FULL INDEX SITE ON DESKTOP, index_full.html. Push when live -->
 	<title>function follows</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <style>
+	.container-fluid {
+		background-color: #E26F45; }
 	.jumbotron {
-		background-image:url('images/function_follows.png');
+		background-image:url('images/banner.png');
+		filter: blur(4px);
 		background-repeat: no-repeat;
-		background-color: #e8e8e8;
 		background-size: auto 100%;
+		background-color: #E26F45;
 		background-position: center top;
 		color: #ffffff;
-		min-height: 150px;
-	}
-		img.displayed {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			opacity: 0.7;
-		}
-		.glyphicon-refresh-animate {
-    			-animation: spin 10s infinite linear;
-    			-ms-animation: spin 10s infinite linear;
-    			-webkit-animation: spinw 10s infinite linear;
-    			-moz-animation: spinm 10s infinite linear;
-		}
-		@keyframes spin {
-    			from { transform: scale(1) rotate(0deg);}
-    			to { transform: scale(1) rotate(360deg);}
-		}
-  		@-webkit-keyframes spinw {
-    			from { -webkit-transform: rotate(0deg);}
-    			to { -webkit-transform: rotate(360deg);}
-		}
-		@-moz-keyframes spinm {
-    			from { -moz-transform: rotate(0deg);}
-    			to { -moz-transform: rotate(360deg);}
-		}
-		.bottom-logo {
-			font-size: 50px;
-			color: #fa3e00;
-		}
+		min-height: 300px; 
+		margin-bottom: 0;}
+	.title-text-holder {
+		display: block; }
+	.centered {
+  		position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -235%); }
+	.navbar {
+		background-color: #FA3E00;
+		min-height: 40px; 
+		vertical-align: top;}
+	img.displayed {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		opacity: 0.7; }
+	.slow-spin {
+  		-webkit-animation: fa-spin 6s infinite linear;
+  		animation: fa-spin 6s infinite linear; }
+	.fa-cog {
+		color: #FA3E00; }
 	body {	
-		background-color: #e8e8e8;
+		background-color: #e8e8e8; }
 	}
 </style>
 
 <body>
-	<div class="jumbotron text-center">
+	<div class="container-fluid">
+		<div class="jumbotron text-center"></div>
+		<div class="title-text-holder, centered"><img src="images/function_follows_text.png" height="175px"></div>
 	</div>
-<div align="center">
-	<span class="glyphicon glyphicon-cog glyphicon-refresh-animate bottom-logo"></span>
-	<font face="courier" color="#fa3e00"><p><br>coming soon ... by dave genu</p></font>
-</div>
+	<div class="container-fluid navbar"></div>
+	<div align="center">
+		<br><br>
+		<i class="fas fa-cog slow-spin fa-3x"></i>
+		<font face="courier" color="#000000"><b><p><br>coming soon ... by dave genu</p></b></font>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
