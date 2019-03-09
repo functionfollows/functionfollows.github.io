@@ -11,18 +11,17 @@
 </head>
 
 <style>
-	.container-fluid {
-		background-color: #E26F45; }
 	.jumbotron {
-		background-image:url('images/banner.png');
+		background-image:url('images/banner_full.png');
 		filter: blur(4px);
 		background-repeat: no-repeat;
 		background-size: auto 100%;
 		background-color: #E26F45;
 		background-position: center top;
 		color: #ffffff;
-		min-height: 300px; 
 		margin-bottom: 0;}
+	.top-level {
+		min-height: 300px;}
 	.title-text-holder {
 		position: relative;
 		display: block; }
@@ -47,21 +46,30 @@
 		color: #FA3E00; }
 	body {	
 		background-color: #e8e8e8; }
+	@media (max-width: 600px) {
+		.jumbotron {
+			background-image:url('images/banner_half.png')}
+		.top-level { min-height: 128px }
+		img {
+			height: 125px; }
+		.centered { transform: translate(-50%, -100%);}
 	}
 </style>
 
 <body>
 	<div class="container-fluid">
-		<div class="jumbotron text-center"></div>
+		<div class="jumbotron top-level"></div>
 		<div class="title-text-holder">
 			<div class="centered"><img src="images/function_follows_text.png" height="175px"></div>
 		</div>
 	</div>
-	<div class="container-fluid navbar"></div>
+	<div class="container-fluid navbar">
+	</div>
 	<div align="center">
 		<br><br>
 		<i class="fas fa-cog slow-spin fa-3x"></i>
 		<font face="courier" color="#000000"><b><p><br>coming soon ... by dave genu</p></b></font>
+		<!--<img src="images/ff_about.jpg" height="400px">-->
 	</div>
 
 	<!-- Optional JavaScript -->
