@@ -34,8 +34,13 @@
   		transform: translate(-50%, -130%); }
 	.navbar {
 		background-color: #FA3E00;
-		min-height: 40px; 
-		vertical-align: top;}
+		<!--height: 40px; -->
+		<!--vertical-align: top;-->}
+	.nav a { 
+		color: #FFFFFF;
+		font-size: 0.8em; }
+	.nav li{ 
+		padding-right: 5px; }
 	img.displayed {
 		display: block;
 		margin-left: auto;
@@ -47,7 +52,12 @@
 	.fa-cog {
 		color: #FA3E00; }
 	body {	
-		background-color: #e8e8e8; }
+		background-color: #e8e8e8; 
+		font-family: "Courier";
+		font-weight: bold;}
+	.nav-pills .nav-link.active {
+		color: #FA3E00;
+		background-color: white;}
 	@media (max-width: 600px) {
 		.jumbotron {
 			background-image:url('images/banner_half.png')}
@@ -65,13 +75,38 @@
 			<div class="centered"><img src="images/function_follows_text.png" height="175px"></div>
 		</div>
 	</div>
-	<div class="container-fluid navbar">
-	</div>
-	<div align="center">
+	<nav class="navbar">
+		<ul class="nav nav-pills w-100 justify-content-end">
+			<li class="nav-item">
+				<a class="nav-link active" data-toggle="tab" href="#BLOG">BLOG</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#WORKS">WORKS</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-toggle="tab" href="#STORE">STORE</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="tab-content">
+	<div class="tab-pane fade show active" id="BLOG" role="tabpanel" align="center">
 		<br><br>
 		<i class="fas fa-cog slow-spin fa-3x"></i>
-		<font face="courier" color="#000000"><b><p><br>coming soon ... by dave genu</p></b></font>
+		<font color="#000000"><b><p><br>BLOG coming soon ... by dave genu</p></b></font>
 		<!--<img src="images/ff_about.jpg" height="400px">-->
+	</div>
+	<div class="tab-pane fade" id="WORKS" role="tabpanel" align="center">
+		<br><br>
+		<i class="fas fa-cog slow-spin fa-3x"></i>
+		<font color="#000000"><b><p><br>WORKS coming soon ... by dave genu</p></b></font>
+		<!--<img src="images/ff_about.jpg" height="400px">-->
+	</div>
+	<div class="tab-pane fade" id="STORE" role="tabpanel" align="center">
+		<br><br>
+		<i class="fas fa-cog slow-spin fa-3x"></i>
+		<font color="#000000"><b><p><br>STORE coming soon ... by dave genu</p></b></font>
+		<!--<img src="images/ff_about.jpg" height="400px">-->
+	</div>
 	</div>
 
 	<!-- Optional JavaScript -->
@@ -80,3 +115,4 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
+
