@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>functionfollows </title>
+		<link>https://functionfollows.com/mailchimp/index.xml</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author>Dave Genu</author>
+		<rights>Copyright (c) 2020</rights>
+		<updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+		
+		<item>
+			<title>Let&#39;s Begin</title>
+			<link>https://functionfollows.com/001-lets-begin/</link>
+			<pubDate>Sat, 13 Jun 2020 19:48:06 EDT</pubDate>
+			<author>Dave Genu</author>
+			<guid>https://functionfollows.com/001-lets-begin/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://functionfollows.com/img/emptycover.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>%!s(&lt;!-- raw HTML omitted --&gt;)&lt;!-- raw HTML omitted --&gt;Today, I’ve chosen to publish something online for the first time in a long time.
+I don’t necessarily know what that will be, yet. I haven’t been struck with inspiration or taken by a fell mood. Consistency will not be an aspect of this website (both in terms of entry usefulness and entry timeliness). Conciseness will not be an aspect of this website. These are just the idle musings of an American man.</description>
+		</item>
+		
+	</channel>
+</rss>
