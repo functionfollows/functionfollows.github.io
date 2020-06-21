@@ -6,7 +6,49 @@
 		<language>en-us</language>
 		<author>Dave Genu</author>
 		<rights>Copyright (c) 2020</rights>
-		<updated>2020-06-13 19:48:06 -0400 EDT</updated>
+		<updated>2020-06-21 14:07:21 -0400 EDT</updated>
+		
+		<item>
+			<title>How to Carve Out Land on the Internet for Cheap</title>
+			<link>https://functionfollows.com/002-how-to-internet-homesteading/</link>
+			<pubDate>Sun, 21 Jun 2020 14:07:21 EDT</pubDate>
+			<author>Dave Genu</author>
+			<guid>https://functionfollows.com/002-how-to-internet-homesteading/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://functionfollows.com/img/timothy-eberly-XemjjFd_4qE-unsplash.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;&lt;strong&gt;Fair warning, this entry is as self-referential as self-referential gets.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As of Q1 2020, &lt;a href=&#34;https://www.verisign.com/en_US/domain-names/dnib/index.xhtml&#34;&gt;Verisign reports&lt;/a&gt; approximately 367 million registered domain names exist on the internet. This corresponds to a vanishingly small percentage of total usage, with capacity ever-increasing due to new top level domains (TLDs) being minted (see &lt;a href=&#34;https://data.iana.org/TLD/tlds-alpha-by-domain.txt&#34;&gt;this list&lt;/a&gt; for all TLDs). If you want &amp;ldquo;land&amp;rdquo; on the internet, a place to hang your coat, you should still act sooner rather than later&amp;hellip; especially if you&amp;rsquo;ve eyed a short name with common words.&lt;/p&gt;
+&lt;p&gt;Owning a plot of land on the world wide web creates avenues for creativity and privacy not often associated with larger social networks. Back at these social hubs, your words are shuffled into a magician&amp;rsquo;s deck of cards to be both simultaneously sunken into obscurity and earmarked for commercial exploitation. On a plot of land out in the digital wilderness, there&amp;rsquo;s slightly more control. That isn&amp;rsquo;t to say you aren&amp;rsquo;t totally in the woods. Google&amp;rsquo;s Web Robots crawl in the brush (literally called &lt;a href=&#34;https://www.robotstxt.org/&#34;&gt;spiders&lt;/a&gt;), beaming your location and your actions periodically back to the mothership. But it&amp;rsquo;s different out here. At least it feels different.&lt;/p&gt;
+&lt;p&gt;Soliloquies aside, carving out a plot of land is cheap and simple. Let&amp;rsquo;s talk about it.&lt;/p&gt;
+&lt;h2 id=&#34;register-a-domain-name&#34;&gt;Register a Domain Name&lt;/h2&gt;
+&lt;p&gt;First you&amp;rsquo;ll need an address. Where will people find you? On the internet, the client-facing address of a website is the &lt;strong&gt;domain name&lt;/strong&gt;. It&amp;rsquo;s what you type in to the address bar. When someone says, &amp;ldquo;I own X website&amp;rdquo;, this is what they&amp;rsquo;re talking about. You&amp;rsquo;ll purchase a domain name from a registrar (such as GoDaddy, Namecheap, Google, or more). These registrars do the heavy lifting in terms of setting the right &amp;ldquo;switches&amp;rdquo; and routing traffic to your site. Without a registrar, no one would know you owned a website. Anyone could just redirect that traffic wherever they would like.&lt;/p&gt;
+&lt;p&gt;That creates the conundrum often asked &lt;a href=&#34;https://www.icann.org/resources/pages/faqs-84-2012-02-25-en#4&#34;&gt;here&lt;/a&gt;: &amp;ldquo;I pay for the domain name registration fees, what do you mean it isn&amp;rsquo;t mine?&amp;rdquo; Fees paid to registrars help upkeep the internet, similar to how taxes maintain roads. The internet only exists when there is infrastructure in place for it to exist. That being said, domain names are typically a pretty cheap monthly cost.&lt;/p&gt;
+&lt;p&gt;I registered this site through &lt;a href=&#34;https://domains.google/&#34;&gt;Google Domains&lt;/a&gt;. The cost is a reoccuring $12 per year, meaning a single site costs a single dollar per month. Names in high demand will be listed at a higher price, and specific TLDs may fluctuate in price. The .com ending seems like a respectable and cheap option.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://functionfollows.com/img/homesteading1.svg#center&#34; alt=&#34;Domain Name&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;choose-a-host&#34;&gt;Choose a Host&lt;/h2&gt;
+&lt;p&gt;With address in hand, you&amp;rsquo;ll need somewhere to put your content. &lt;strong&gt;Hosts&lt;/strong&gt; online provide server space for you to park that brand new address, often for a fee. Examples of these companies include HostGator and Amazon. Additionally, your chosen registrar may offer hosting options depending on their package. For a short time, I even had a website hosted through my university&amp;rsquo;s EDU page (for free).&lt;/p&gt;
+&lt;p&gt;For small projects like this, I&amp;rsquo;ve always enjoyed hosting through &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;. Github allocates space for small and low traffic sites (ideal for this blog) at no cost. There are a few caveats including size and e-commerce limitations (full details included on &lt;a href=&#34;https://help.github.com/en/github/working-with-github-pages/about-github-pages&#34;&gt;this page&lt;/a&gt;). Additionally, the files are publicly available to anyone who visits the repository, which could be a good or bad thing. In any case, it&amp;rsquo;s a good way to start, and keeps costs low.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://functionfollows.com/img/homesteading2.svg#center&#34; alt=&#34;Hosting&#34;&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;pick-a-framework&#34;&gt;Pick a Framework&lt;/h2&gt;
+&lt;p&gt;Close to 10 years ago, I was required to take an introductory &amp;ldquo;programming&amp;rdquo; course within the engineering curriculum (my opinions and &lt;em&gt;air-quotes&lt;/em&gt; will likely be explained in a future entry). A major project through the course was writing HTML for a 90&amp;rsquo;s era website. The project exposed me to the basics, but is lacking in the current millenium. Good news, several &lt;strong&gt;frameworks&lt;/strong&gt; exist to help generate modern looking websites. These frameworks takes in a more user-friendly input and spits out the required HTML and CSS used to generate the website.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve recently learned about &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; as a static site generator. A static site fulfills all requirements necessary for this &amp;lsquo;ideas&amp;rsquo; blog and easily creates a nice looking website. My only interaction is through &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;Markdown&lt;/a&gt;, which has a user-friendly syntax. I don&amp;rsquo;t have to care about CSS or padding or any business like that. Hugo takes care of it for me. Once the Markdown file is created, I run the command:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;hugo server&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and out comes a website! Easy as that. I can make minimal adjustments by editting the underlaying theme, but it&amp;rsquo;s not generally required. Since the framework is open-source, that also helps keep costs low!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://functionfollows.com/img/homesteading3.svg#center&#34; alt=&#34;Framework&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wiring-it-all-up&#34;&gt;Wiring it All Up&lt;/h2&gt;
+&lt;p&gt;The following additional, technical steps are required before anything goes live to the internet:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a CNAME file within the Github repository. This file contains just plaintext of the domain name. My CNAME includes two lines, 1) functionfollows.com and 2) &lt;a href=&#34;http://www.functionfollows.com&#34;&gt;www.functionfollows.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Point the registrar to the host. This process is slightly different for all registrars, but Google Domains has an option in the DNS settings where you input the host location.&lt;/li&gt;
+&lt;li&gt;Generate some content. This is the hard part, but there might be &lt;a href=&#34;https://www.goodreads.com/book/show/23001125-everybody-writes&#34;&gt;some help out there&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Push the content to the web. Clone the repository, make the changes, push the files, and commit changes. Within a few seconds, the website goes live with changes.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://functionfollows.com/img/homesteading4.svg#center&#34; alt=&#34;Wiring&#34;&gt;&lt;/p&gt;
+&lt;p&gt;And that&amp;rsquo;s how this story all started. I imagine things will change in the future and depending on the direction of this blog; I may change any of the above. In any case, it&amp;rsquo;s cozy out in the world wide woods.&lt;/p&gt;
+</description>
+		</item>
 		
 		<item>
 			<title>Let&#39;s Begin</title>
@@ -14,7 +56,7 @@
 			<pubDate>Sat, 13 Jun 2020 19:48:06 EDT</pubDate>
 			<author>Dave Genu</author>
 			<guid>https://functionfollows.com/001-lets-begin/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://functionfollows.com/img/emptycover.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://functionfollows.com/img/steelmill.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;&lt;strong&gt;Today, I&amp;rsquo;ve chosen to publish something online for the first time in a long time.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I don&amp;rsquo;t necessarily know what that will be, yet. I haven&amp;rsquo;t been struck with inspiration or &lt;a href=&#34;https://dwarffortresswiki.org/index.php/DF2014:Strange_mood&#34;&gt;taken by a fell mood&lt;/a&gt;. Consistency will not be an aspect of this website (both in terms of entry usefulness and entry timeliness). Conciseness will not be an aspect of this website. These are just the idle musings of an American man. My words will have no greater meaning. My ideas will have no greater impact.&lt;/p&gt;
 &lt;p&gt;Consider the following entries to be a type of &amp;ldquo;conscious slag&amp;rdquo;. Through a standard workday, I design and build multi-axis machines for use all over the world. This activity takes my major focus because it is the one thing separating me from being financially destitute and mentally unmotivated. The valuable resource smelted in the foundry of my skull is this ability to design and implement engineered solutions for cutting-edge companies. At the end of the day, once this resource has been successfully tapped out through a metaphorical trepan (the process typically takes 8 earth hours), I am left with a cavernous crucible of conscious slag.&lt;/p&gt;
